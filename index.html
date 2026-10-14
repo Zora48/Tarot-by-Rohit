@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tarot by Rohit - Tarot Reading, Relationship Guidance, Spiritual Guidance and Personalized Consultations.">
+<title>Tarot by Rohit | Tarot & Spiritual Guidance</title>
+<style>
+:root{--bg:#0d0715;--card:#181024;--card2:#21142e;--gold:#e8b85c;--cream:#fff8ec;--muted:#c8bcd2;--accent:#b66cff;--line:#3b2a4b}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--cream);line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{position:sticky;top:0;z-index:20;background:rgba(13,7,21,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{max-width:1150px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-family:Georgia,serif;font-size:25px;color:var(--gold);font-weight:bold}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{font-size:14px;color:#eee}
+nav a:hover{color:var(--gold)}
+.hero{min-height:650px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(circle at 75% 25%,#4a286d 0,#20102f 35%,#0d0715 72%)}
+.hero:before{content:"✦  ☾  ✧  ♢  ✦";position:absolute;font-size:90px;letter-spacing:45px;opacity:.08;right:-100px;top:100px;transform:rotate(-18deg)}
+.hero-inner{max-width:1150px;width:100%;margin:auto;padding:80px 22px;position:relative;z-index:1}
+.badge{display:inline-block;border:1px solid #75528f;color:var(--gold);padding:7px 14px;border-radius:30px;font-size:13px;margin-bottom:18px}
+h1{font-family:Georgia,serif;font-size:clamp(45px,7vw,82px);line-height:1.02;max-width:800px}
+h1 span{color:var(--gold)}
+.hero p{max-width:650px;color:var(--muted);font-size:18px;margin:22px 0 30px}
+.btn{display:inline-block;background:var(--gold);color:#160d1e;padding:13px 22px;border-radius:10px;font-weight:bold;margin:5px 7px 5px 0}
+.btn.alt{background:transparent;color:var(--cream);border:1px solid #80649a}
+section{max-width:1150px;margin:auto;padding:75px 22px}
+.section-head{text-align:center;margin-bottom:40px}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:12px}
+h2{font-family:Georgia,serif;font-size:40px;margin:8px 0}
+.section-head p{color:var(--muted);max-width:700px;margin:auto}
+.about{display:grid;grid-template-columns:280px 1fr;gap:45px;align-items:center}
+.avatar{height:320px;border-radius:24px;background:linear-gradient(145deg,#38204e,#120a1c);display:flex;align-items:center;justify-content:center;border:1px solid var(--line);font-family:Georgia,serif;color:var(--gold);font-size:34px}
+.about p{color:var(--muted);font-size:17px;margin:15px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(145deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:18px;padding:25px}
+.card h3{font-family:Georgia,serif;font-size:23px;margin-bottom:8px}
+.price{font-size:26px;color:var(--gold);font-weight:bold;margin:10px 0}
+.card ul{list-style:none;color:var(--muted);margin:15px 0}
+.card li{margin:6px 0}
+.card li:before{content:"✦ ";color:var(--gold)}
+.small{font-size:14px;color:var(--muted)}
+.review-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.review{background:#fff;color:#211526;border-radius:18px;overflow:hidden}
+.review img{display:block;width:100%;height:auto}
+.store{background:#120a1d;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.product-card{min-height:190px}
+.product-card .icon{font-size:38px;margin-bottom:12px}
+.booking{background:linear-gradient(135deg,#241335,#12091a);border:1px solid var(--line);border-radius:24px;padding:35px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+input,select,textarea{width:100%;padding:14px;border-radius:10px;border:1px solid #4a3659;background:#0f0916;color:white}
+textarea{min-height:120px;resize:vertical}
+.full{grid-column:1/-1}
+label{font-size:13px;color:var(--muted);display:block;margin-bottom:5px}
+footer{border-top:1px solid var(--line);padding:40px 22px;text-align:center;color:var(--muted)}
+.social{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;margin:18px 0}
+.social a{border:1px solid var(--line);padding:9px 14px;border-radius:30px}
+.disclaimer{font-size:12px;color:#95889f;max-width:850px;margin:20px auto}
+@media(max-width:800px){nav{display:none}.about,.review-grid{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.avatar{height:240px}form{grid-template-columns:1fr}.full{grid-column:auto}h2{font-size:33px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="nav">
+<div class="logo">Tarot by Rohit</div>
+<nav>
+<a href="#home">Home</a><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#store">Store</a><a href="#booking">Book</a><a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="hero-inner">
+<div class="badge">TAROT • GUIDANCE • SPIRITUAL CONSULTATION</div>
+<h1>Love & Relationship<br><span>Guidance by Rohit</span></h1>
+<p>Personalized Tarot Reading, Love & Relationship Guidance, Marriage Guidance, Career Guidance and spiritual consultations — created to help you gain clarity, confidence and direction.</p>
+<a class="btn" href="#booking">Book Your Session</a>
+<a class="btn alt" href="#services">Explore Services</a>
+</div>
+</section>
+
+<section>
+<div class="section-head"><div class="eyebrow">About</div><h2>Meet Rohit</h2></div>
+<div class="about">
+<div class="avatar">ROHIT<br>✦</div>
+<div>
+<h2 style="font-size:32px">Hi, I am Rohit.</h2>
+<p>I provide Tarot Card Readings, Love & Relationship Guidance, Spiritual Guidance, Marriage Guidance, Career Guidance and Personalized Consultations.</p>
+<p>My goal is to help people gain clarity, confidence and direction in their personal journey through thoughtful tarot and spiritual guidance.</p>
+<a class="btn" href="#booking">Book a Reading</a>
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="section-head"><div class="eyebrow">Tarot Services</div><h2>Choose Your Reading</h2><p>Personalized guidance for your questions, relationships, career and spiritual journey.</p></div>
+<div class="grid">
+<div class="card"><h3>Full Tarot Reading</h3><div class="price">₹251</div><ul><li>Love Reading</li><li>Relationship Reading</li><li>Marriage Reading</li><li>Career Reading</li><li>General Guidance</li><li>Personal Questions</li></ul><a class="btn" href="#booking" data-service="Full Tarot Reading">Book Now</a></div>
+<div class="card"><h3>One-on-One Video Call</h3><div class="price">₹550</div><ul><li>Live Video Session</li><li>Personalized Discussion</li><li>Tarot Guidance</li><li>Question Answer Session</li></ul><a class="btn" href="#booking" data-service="One-on-One Video Call Reading">Book Video Call</a></div>
+</div>
+</section>
+
+<section>
+<div class="section-head"><div class="eyebrow">Guidance Services</div><h2>Spiritual & Personal Guidance</h2></div>
+<div class="grid">
+<div class="card"><h3>Love Problem Solution</h3><div class="price">₹2100</div><p class="small">Personalized spiritual guidance for relationship challenges.</p><a class="btn" href="#booking" data-service="Love Problem Solution">Book Now</a></div>
+<div class="card"><h3>Love Healing</h3><div class="price">₹2000</div><p class="small">Guided healing-focused spiritual session.</p><a class="btn" href="#booking" data-service="Love Healing">Book Now</a></div>
+<div class="card"><h3>Relationship Harmony</h3><div class="price">₹1800</div><p class="small">Relationship balance and harmony guidance.</p><a class="btn" href="#booking" data-service="Relationship Harmony">Book Now</a></div>
+<div class="card"><h3>Move-On Guidance</h3><div class="price">₹1100</div><p class="small">Emotional healing and closure guidance.</p><a class="btn" href="#booking" data-service="Move-On Guidance">Book Now</a></div>
+<div class="card"><h3>Ex-Back Guidance</h3><div class="price">₹1600</div><p class="small">Relationship reconciliation guidance.</p><a class="btn" href="#booking" data-service="Ex-Back Guidance">Book Now</a></div>
+<div class="card"><h3>Partner Reconnection</h3><div class="price">₹2500</div><p class="small">Personalized relationship reconnection guidance.</p><a class="btn" href="#booking" data-service="Partner Reconnection">Book Now</a></div>
+<div class="card"><h3>Third Person Removal</h3><div class="price">₹2500</div><p class="small">Relationship clarity and boundary-focused guidance.</p><a class="btn" href="#booking" data-service="Third Person Removal">Book Now</a></div>
+<div class="card"><h3>Love Marriage Guidance</h3><div class="price">₹2100</div><p class="small">Love marriage and relationship planning guidance.</p><a class="btn" href="#booking" data-service="Love Marriage Guidance">Book Now</a></div>
+<div class="card"><h3>Career & Job Guidance</h3><div class="price">₹1650</div><p class="small">Career and professional growth guidance.</p><a class="btn" href="#booking" data-service="Career & Job Guidance">Book Now</a></div>
+<div class="card"><h3>Other Ritual Services</h3><div class="price">Contact on WhatsApp</div><p class="small">Ask Rohit about available spiritual guidance and ritual services.</p><a class="btn" href="#booking" data-service="Other Ritual Services">WhatsApp Now</a></div>
+</div>
+</section>
+
+<section id="reviews">
+<div class="section-head"><div class="eyebrow">Client Reviews</div><h2>What Clients Say</h2><p>Real feedback shared by clients.</p></div>
+<div class="review-grid">
+<div class="review"><img src="images/review-nandita.jpg" alt="Client feedback screenshot"></div>
+<div class="review"><img src="images/review-detailed.jpg" alt="Client feedback screenshot"></div>
+</div>
+</section>
+
+<section class="store" id="store">
+<div class="section-head"><div class="eyebrow">Spiritual Store</div><h2>Want To Practice At Home?</h2><p>Explore spiritual products and ritual materials. Products can be added later.</p></div>
+<div class="grid">
+<div class="card product-card"><div class="icon">♡</div><h3>Love & Attraction</h3><p class="small">Love Attraction Bands • Relationship Bands • Couple Energy Bands • Personalized Bands • Numerology/ Astrology/ DOB Based Bands</p></div>
+<div class="card product-card"><div class="icon">◈</div><h3>Crystal Collection</h3><p class="small">Love • Relationship • Career • Money • Confidence • Energy Crystals • Personalized Sets</p></div>
+<div class="card product-card"><div class="icon">◉</div><h3>Candle Collection</h3><p class="small">Love • Relationship • Attraction • Harmony • Prosperity • Spiritual Candles</p></div>
+<div class="card product-card"><div class="icon">✦</div><h3>Mala Collection</h3><p class="small">Rudraksha • Tulsi • Crystal • Healing • Personalized Mala</p></div>
+<div class="card product-card"><div class="icon">✧</div><h3>Spiritual Kits</h3><p class="small">Love Ritual Kit • Relationship Kit • Self-Healing Kit • Prosperity Kit • Spiritual Starter Kit</p></div>
+</div>
+<p class="small" style="text-align:center;margin-top:25px">Store structure is ready for future products. Product pages can later include image gallery, description, price, stock, cart, buy now, shipping and reviews.</p>
+</section>
+
+<section id="booking">
+<div class="section-head"><div class="eyebrow">Booking</div><h2>Book Your Session</h2><p>Fill in your details. After submission, WhatsApp will open with your booking message.</p></div>
+<div class="booking">
+<form id="bookingForm">
+<div><label>Name</label><input id="name" required placeholder="Your name"></div>
+<div><label>Mobile Number</label><input id="mobile" required placeholder="10-digit mobile number"></div>
+<div><label>Date of Birth</label><input id="dob" type="date"></div>
+<div><label>Service</label><select id="service"><option>Full Tarot Reading - ₹251</option><option>One-on-One Video Call - ₹550</option><option>Love Problem Solution - ₹2100</option><option>Love Healing - ₹2000</option><option>Relationship Harmony - ₹1800</option><option>Move-On Guidance - ₹1100</option><option>Ex-Back Guidance - ₹1600</option><option>Partner Reconnection - ₹2500</option><option>Third Person Removal - ₹2500</option><option>Love Marriage Guidance - ₹2100</option><option>Career & Job Guidance - ₹1650</option><option>Other Ritual Services</option></select></div>
+<div class="full"><label>Message</label><textarea id="message" placeholder="Tell us briefly what you would like guidance about"></textarea></div>
+<div class="full"><button class="btn" type="submit" style="border:0;cursor:pointer">Continue on WhatsApp</button></div>
+</form>
+</div>
+</section>
+
+<section id="contact">
+<div class="section-head"><div class="eyebrow">Contact</div><h2>Connect With Rohit</h2><p>For bookings, questions and available services, contact directly.</p></div>
+<div style="text-align:center">
+<a class="btn" id="waContact" href="#">WhatsApp</a>
+<a class="btn alt" href="#" onclick="alert('Add Instagram link in the code when the account is ready.');return false;">Instagram</a>
+<a class="btn alt" href="#" onclick="alert('Add Facebook link in the code when the account is ready.');return false;">Facebook</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="logo">Tarot by Rohit</div>
+<div class="social"><a href="#home">Home</a><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#store">Store</a><a href="#booking">Book</a></div>
+<div class="disclaimer">Tarot readings and spiritual services are provided for guidance, reflection and personal consultation. No guaranteed outcome or specific result is promised. Please make important personal, medical, legal or financial decisions using appropriate professional advice.</div>
+<p>© 2026 Tarot by Rohit. All rights reserved.</p>
+</footer>
+
+<script>
+// IMPORTANT: Replace the number below with Rohit's WhatsApp number, including country code.
+// Example India: 919876543210
+const WHATSAPP_NUMBER = "916284665382";
+
+document.querySelectorAll("[data-service]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const value = btn.dataset.service;
+    const select = document.getElementById("service");
+    [...select.options].forEach(o=>{ if(o.textContent.startsWith(value)) select.value=o.value; });
+  });
+});
+
+document.getElementById("bookingForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  const name=document.getElementById("name").value.trim();
+  const mobile=document.getElementById("mobile").value.trim();
+  const dob=document.getElementById("dob").value;
+  const service=document.getElementById("service").value;
+  const message=document.getElementById("message").value.trim();
+  const text=`Hello Rohit,%0A%0AI want to book a session.%0A%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(mobile)}%0ADOB: ${encodeURIComponent(dob)}%0AService: ${encodeURIComponent(service)}%0AMessage: ${encodeURIComponent(message)}`;
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`,"_blank");
+});
+
+document.getElementById("waContact").addEventListener("click",function(e){
+  e.preventDefault();
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}`,"_blank");
+});
+</script>
+</body>
+</html>
